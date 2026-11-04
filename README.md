@@ -48,12 +48,20 @@
 ### About This Mac
 The system reports macOS Tahoe 26.7.1, Intel Core i5, Iris Xe graphics and 8 GB RAM.
 
+![About This Mac — macOS Tahoe 26.7.1<div align="center">
+
 ![About This Mac — macOS Tahoe 26.7.1](assets/macos-about-this-mac.jpg)
+
+</div>
 
 ### Iris Xe acceleration status
 IrisXe Manager shows the NMX components installed and loaded, acceleration **ON**, locks **none**, and boot arguments status **OK**. The desktop is running smoothly.
 
-![Iris Xe Manager — acceleration enabled](assets/irisxe-acceleration-proof.jpg)
+![Iris Xe Manager — acceleration enabled<div align="center">
+
+![Iris Xe Manager — Acceleration ON](assets/irisxe-acceleration-proof.jpg)
+
+</div>
 
 ## 🧩 Installation approach
 
