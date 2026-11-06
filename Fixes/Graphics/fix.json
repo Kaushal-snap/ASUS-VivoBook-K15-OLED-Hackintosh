@@ -1,0 +1,25 @@
+{
+  "title": "enable Intel Iris Xe 8086:9A49 framebuffer configuration",
+  "category": "Graphics",
+  "status": "Implemented",
+  "commit_type": "fix",
+  "commit_scope": "graphics",
+  "summary": "Added DeviceProperties entry with AAPL,ig-platform-id 0x9A49 and framebuffer properties for Intel Iris Xe on ASUS VivoBook K15 OLED",
+
+  "credits": [
+    {
+      "repo": "Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh",
+      "url": "https://github.com/Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh",
+      "author": "Kaushal-snap",
+      "commit": "original config.plist setup",
+      "license": "MIT",
+      "usage": "reference configuration for Intel Iris Xe 8086:9A49",
+      "files": "config.plist, SSDT-Brightness-Force.dsl, EFI/OC/Kexts/"
+    }
+  ],
+
+  "files": [
+    "fix.json",
+    "README.md"
+  ]
+}
