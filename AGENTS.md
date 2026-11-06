@@ -203,7 +203,7 @@ After every published fix, report:
 9. GitHub push result.
 10. Public documentation location.
 
-buymeacoffee.com/kl06
+[Buy Me a Coffee](https://buymeacoffee.com/KL06)
 
 ## Final Rule
 

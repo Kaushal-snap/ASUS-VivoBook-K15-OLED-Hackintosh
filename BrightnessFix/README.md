@@ -41,7 +41,7 @@ If your machine has a different iGPU, the script will exit early and report the 
 ## License
 MIT – feel free to adapt and share.
 
-buymeacoffee.com/kl06
+[Buy Me a Coffee](https://buymeacoffee.com/KL06)
 
 ## Contributing
 1. Fork this repository.

@@ -26,4 +26,4 @@ than guessed.
 <!-- entries appended automatically by scripts/publish-fix.sh -->
 
 
-buymeacoffee.com/kl06
+[Buy Me a Coffee](https://buymeacoffee.com/KL06)

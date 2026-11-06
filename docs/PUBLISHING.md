@@ -109,4 +109,4 @@ Commits in this repo use the repository's existing author identity
 `$HOME/bin/gh` via `gh auth setup-git`.
 
 
-buymeacoffee.com/kl06
+[Buy Me a Coffee](https://buymeacoffee.com/KL06)

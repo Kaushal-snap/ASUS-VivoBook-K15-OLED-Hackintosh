@@ -108,7 +108,7 @@ Hackintosh projects involve unsupported configurations and may break after syste
 
 ⭐ If this documentation helps, star the upstream projects and share your own hardware results.
 
-buymeacoffee.com/kl06
+[Buy Me a Coffee](https://buymeacoffee.com/KL06)
 
 </div>
 

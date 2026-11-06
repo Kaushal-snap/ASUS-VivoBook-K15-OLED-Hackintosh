@@ -16,4 +16,4 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - This `CHANGELOG.md` and `CREDITS.md`.
 
 
-buymeacoffee.com/kl06
+[Buy Me a Coffee](https://buymeacoffee.com/KL06)
