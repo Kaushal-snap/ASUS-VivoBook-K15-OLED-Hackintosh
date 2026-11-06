@@ -1,0 +1,20 @@
+{
+  "title": "{{TITLE}}",
+  "category": "{{CATEGORY}}",
+  "status": "Implemented",
+  "commit_type": "fix",
+  "commit_scope": "",
+  "summary": "",
+  "files": [],
+  "credits": [
+    {
+      "repo": "",
+      "url": "",
+      "author": "",
+      "commit": "",
+      "license": "",
+      "usage": "",
+      "files": []
+    }
+  ]
+}

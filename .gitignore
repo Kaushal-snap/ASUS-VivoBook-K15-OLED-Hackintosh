@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────────────────────────────────
+# Private / never publish.
+# The real working EFI, kexts, logs and machine identifiers must stay out.
+# ─────────────────────────────────────────────────────────────────────────
+
+# Working bootloader artifacts (keep the real EFI outside this repo)
+EFI/
+BOOT/
+OC/
+Kexts/
+*.kext/
+*.kext
+*.efi
+*.aml
+
+# Secrets and personal identifiers
+secrets/
+.env
+.env.*
+*.token
+*.pem
+*.key
+*.p12
+*.mobileconfig
+*serial*
+*SMBIOS*
+*SerialNumber*
+
+# Machine-specific diagnostics, logs and build output
+*.log
+logs/
+*.ioreg
+diagnostics/
+*.o
+*.dSYM/
+
+# macOS / editors
+.DS_Store
+._*
+*.swp
+*~
+
+# Local agent caches
+.codex/
+.claude/
