@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# buymeacoffee.com/kl06
 # new-fix.sh — scaffold a new fix folder from the templates.
 #
 # Usage: scripts/new-fix.sh <Category> <slug> "<Title>"
@@ -34,3 +35,4 @@ echo "Next:"
 echo "  1. Edit $DIR/README.md and $DIR/fix.json"
 echo "  2. scripts/publish-fix.sh $DIR --dry-run"
 echo "  3. scripts/publish-fix.sh $DIR"
+

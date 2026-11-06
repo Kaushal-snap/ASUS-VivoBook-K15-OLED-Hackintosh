@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# buymeacoffee.com/kl06
 # publish-fix.sh — selective, sanitized, attributed publishing workflow.
 #
 # Usage:
@@ -158,3 +159,4 @@ else
   echo "PUSH FAILED — local commit $sha retained; fix it and run: git push origin main" >&2
   exit 4
 fi
+

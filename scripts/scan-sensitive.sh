@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# buymeacoffee.com/kl06
 # scan-sensitive.sh — refuse to publish secrets or personal identifiers.
 #
 # Usage: scripts/scan-sensitive.sh <file> [file ...]
@@ -56,3 +57,4 @@ if [ "$findings" -ne 0 ]; then
 fi
 echo "RESULT: clean — no sensitive data detected."
 exit 0
+

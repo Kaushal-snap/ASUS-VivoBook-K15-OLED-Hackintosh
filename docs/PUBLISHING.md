@@ -107,3 +107,6 @@ password assignments. Exit `0` = clean, `1` = findings.
 Commits in this repo use the repository's existing author identity
 (`Kaushal-snap <kl682002@gmail.com>`). Authentication uses the GitHub CLI at
 `$HOME/bin/gh` via `gh auth setup-git`.
+
+
+buymeacoffee.com/kl06

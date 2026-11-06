@@ -203,9 +203,12 @@ After every published fix, report:
 9. GitHub push result.
 10. Public documentation location.
 
+buymeacoffee.com/kl06
+
 ## Final Rule
 
 Build a reliable, properly credited, community-useful ASUS VivoBook K15 OLED Hackintosh
 knowledge base. Work independently using terminal access, Git and available GitHub
 authentication. Automate diagnosis, fixes, validation, documentation, attribution and
 selective publishing. Never sacrifice existing working functionality for unrelated fixes.
+
