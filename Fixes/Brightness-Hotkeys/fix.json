@@ -1,0 +1,29 @@
+{
+  "title": "Expose EC brightness event methods for Fn+F5/F6 display brightness",
+  "category": "Graphics",
+  "status": "Experimental",
+  "commit_type": "fix",
+  "commit_scope": "brightness-hotkeys",
+  "summary": "Investigation documents that BrightnessKeys.kext loads but receives no ACPI _Q14/_Q15 brightness events because SSDT-EC.aml is minimal; VoodooPS2Controller correctly not loaded (I2C keyboard); DeviceProperties backlight controls already correct. No EFI changes made yet.",
+  "files": [],
+  "credits": [
+    {
+      "repo": "acidanthera/BrightnessKeys",
+      "url": "https://github.com/acidanthera/BrightnessKeys",
+      "author": "vit9696 (Acidanthera)",
+      "commit": "BrightnessKeys.kext 1.0.4 reference",
+      "license": "Check upstream repository",
+      "usage": "Reference for brightness hotkey event handling architecture",
+      "files": []
+    },
+    {
+      "repo": "Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh",
+      "url": "https://github.com/Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh",
+      "author": "Kaushal-snap",
+      "commit": "reference EFI configuration",
+      "license": "MIT",
+      "usage": "Reference config.plist, DeviceProperties, and ACPI tables for K513EA",
+      "files": []
+    }
+  ]
+}

@@ -27,3 +27,5 @@ than guessed.
 
 
 [Buy Me a Coffee](https://buymeacoffee.com/KL06)
+- **acidanthera/BrightnessKeys** ([source](https://github.com/acidanthera/BrightnessKeys)) — Reference for brightness hotkey event handling architecture. Contributor: vit9696 (Acidanthera) (commit `BrightnessKeys.kext 1.0.4 reference`). License: Check upstream repository.
+- **Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh** ([source](https://github.com/Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh)) — Reference config.plist, DeviceProperties, and ACPI tables for K513EA. Contributor: Kaushal-snap (commit `reference EFI configuration`). License: MIT.

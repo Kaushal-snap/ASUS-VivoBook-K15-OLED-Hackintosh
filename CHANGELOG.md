@@ -7,6 +7,8 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+- **Graphics** — Expose EC brightness event methods for Fn+F5/F6 display brightness — _Experimental_: Investigation documents that BrightnessKeys.kext loads but receives no ACPI _Q14/_Q15 brightness events because SSDT-EC.aml is minimal; VoodooPS2Controller correctly not loaded (I2C keyboard); DeviceProperties backlight controls already correct. No EFI changes made yet. ([details](Fixes/Brightness-Hotkeys/README.md))
+
 ### Added
 - Project automation and documentation structure:
   - `AGENTS.md` — permanent project rules for every session.
