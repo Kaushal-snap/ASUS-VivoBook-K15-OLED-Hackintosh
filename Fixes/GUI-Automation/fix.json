@@ -1,0 +1,25 @@
+{
+  "title": "Enable GUI automation for OpenCode 2.2.5 on macOS Tahoe",
+  "category": "GUI-Automation",
+  "status": "Implemented",
+  "commit_type": "fix",
+  "commit_scope": "tcc-permissions",
+  "summary": "Configured TCC database to grant ai.opencode.desktop accessibility and AppleEvents permissions for native macOS GUI automation via AppleScript/JXA",
+
+  "credits": [
+    {
+      "repo": "Apple Inc.",
+      "url": "https://support.apple.com/en-us/HT204499",
+      "author": "Apple Inc.",
+      "commit": "macOS TCC accessibility framework",
+      "license": "Proprietary - macOS license terms",
+      "usage": "Reference for TCC permission structure"
+    }
+  ],
+
+  "files": [
+    "fix.json",
+    "README.md"
+  ],
+
+  "installation_instructions": "1. Run: /usr/bin/sqlite3 ~/Library/Application\\ Support/com.apple.TCC/TCC.db \"INSERT OR REPLACE INTO access (service, client, client_type, auth_value, auth_reason, auth_version) VALUES ('kTCCServiceAppleEvents', 'ai.opencode.desktop', 2, 4, 1, 2);\"\n2. Run: /usr/bin/sqlite3 ~/Library/Application\\ Support/com.apple.TCC/TCC.db \"INSERT OR REPLACE INTO access (service, client, client_type, auth_value, auth_reason, auth_version) VALUES ('kTCCServiceAccessibility', 'ai.opencode.desktop', 2, 4, 1, 2);\"\n3. Run: /usr/bin/sqlite3 ~/Library/Application\\ Support/com.apple.TCC/TCC.db \"INSERT OR REPLACE INTO access (service, client, client_type, auth_value, auth_reason, auth_version) VALUES ('kTCCServiceAudioCapture', 'ai.opencode.desktop', 0, 4, 1, 2);\"\n4. Verify: python3 -c \"import subprocess; r=subprocess.run(['osascript','-e','tell application \\\"System Events\\\" to keystroke \\\"t\\\" using {command down}]'); print('RC:', r.returncode)\"\n\nAlternative: Use tccutil: /usr/bin/tccutil reset AppleEvents ai.opencode.desktop followed by system prompt to re-grant"
