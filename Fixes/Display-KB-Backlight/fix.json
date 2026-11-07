@@ -1,0 +1,38 @@
+{
+  "title": "Keyboard backlight Fn+F7 and display brightness via ACPI _Qxx methods",
+  "category": "Keyboard",
+  "status": "Experimental",
+  "commit_type": "fix",
+  "commit_scope": "keyboard-backlight",
+  "summary": "Investigation documents that SSDT-EC.aml does not expose _Q14/_Q15 (_QD7/_QD8) brightness events, AsusSMC 1.4.1 may be incompatible with Tahoe 26.7.1, and SSDT-KBBacklight.aml is a minimal stub. No EFI changes made yet.",
+  "files": [],
+  "credits": [
+    {
+      "repo": "hieplpvip/AsusSMC",
+      "url": "https://github.com/hieplpvip/AsusSMC",
+      "author": "hieplpvip",
+      "commit": "AsusSMC VirtualSMC plugin reference",
+      "license": "MIT",
+      "usage": "Reference for ACPI ATK device handling and keyboard backlight control",
+      "files": []
+    },
+    {
+      "repo": "acidanthera/BrightnessKeys",
+      "url": "https://github.com/acidanthera/BrightnessKeys",
+      "author": "vit9696 (Acidanthera)",
+      "commit": "BrightnessKeys.kext 1.0.4 reference",
+      "license": "Check upstream repository",
+      "usage": "Reference for brightness hotkey event handling architecture",
+      "files": []
+    },
+    {
+      "repo": "Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh",
+      "url": "https://github.com/Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh",
+      "author": "Kaushal-snap",
+      "commit": "reference EFI configuration",
+      "license": "MIT",
+      "usage": "Reference config.plist, DeviceProperties, and ACPI tables for K513EA",
+      "files": []
+    }
+  ]
+}

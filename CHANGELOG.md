@@ -7,6 +7,8 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+- **Keyboard** — Keyboard backlight Fn+F7 and display brightness via ACPI _Qxx methods — _Experimental_: Investigation documents that SSDT-EC.aml does not expose _Q14/_Q15 (_QD7/_QD8) brightness events, AsusSMC 1.4.1 may be incompatible with Tahoe 26.7.1, and SSDT-KBBacklight.aml is a minimal stub. No EFI changes made yet. ([details](Fixes/Display-KB-Backlight/README.md))
+
 - **Graphics** — Expose EC brightness event methods for Fn+F5/F6 display brightness — _Experimental_: Investigation documents that BrightnessKeys.kext loads but receives no ACPI _Q14/_Q15 brightness events because SSDT-EC.aml is minimal; VoodooPS2Controller correctly not loaded (I2C keyboard); DeviceProperties backlight controls already correct. No EFI changes made yet. ([details](Fixes/Brightness-Hotkeys/README.md))
 
 ### Added
