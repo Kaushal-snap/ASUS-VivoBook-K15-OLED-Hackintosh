@@ -1,0 +1,68 @@
+{
+  "title": "ASUSK513Controller kernel extension for keyboard backlight and ATK handling",
+  "category": "Keyboard",
+  "status": "Build Verified",
+  "commit_type": "fix",
+  "commit_scope": "keyboard-kext",
+  "summary": "Independent kernel extension (source only) binding to PNP0C14/ASUS ATK devices, discovering SLKB/GLKB keyboard backlight devices, with read-only ACPI interface and keyboard backlight control stub. Compiles successfully on macOS Tahoe 26.7.1; not yet hardware-tested.",
+  "files": [
+    "ASUSK513Controller/src/ASUSK513Controller.cpp",
+    "ASUSK513Controller/src/ASUSK513Controller.h",
+    "ASUSK513Controller/src/ACPIInterface.cpp",
+    "ASUSK513Controller/src/ACPIInterface.h",
+    "ASUSK513Controller/src/KeyboardBacklight.cpp",
+    "ASUSK513Controller/src/KeyboardBacklight.h",
+    "ASUSK513Controller/src/ASUSK513ControllerDiagnostics.cpp",
+    "ASUSK513Controller/src/ASUSK513ControllerDiagnostics.h",
+    "ASUSK513Controller/src/Info.plist",
+    "ASUSK513Controller/include/ASUSK513ControllerDefs.h",
+    "ASUSK513Controller/Makefile",
+    "ASUSK513Controller/LICENSE",
+    "ASUSK513Controller/ATTRIBUTION.md",
+    "ASUSK513Controller/scripts/build-debug.sh",
+    "ASUSK513Controller/scripts/build-release.sh",
+    "ASUSK513Controller/docs/BUILD.md",
+    "ASUSK513Controller/docs/HARDWARE.md",
+    "ASUSK513Controller/docs/README.md",
+    "ASUSK513Controller/docs/TEST-MATRIX.md",
+    "ASUSK513Controller/docs/ACPI-INTERFACE.md"
+  ],
+  "credits": [
+    {
+      "repo": "hieplpvip/AsusSMC",
+      "url": "https://github.com/hieplpvip/AsusSMC",
+      "author": "hieplpvip",
+      "commit": "AsusSMC VirtualSMC plugin reference",
+      "license": "MIT",
+      "usage": "Reference for ACPI ATK device handling and keyboard backlight control architecture",
+      "files": []
+    },
+    {
+      "repo": "acidanthera/BrightnessKeys",
+      "url": "https://github.com/acidanthera/BrightnessKeys",
+      "author": "vit9696 (Acidanthera)",
+      "commit": "BrightnessKeys.kext 1.0.4 reference",
+      "license": "Check upstream repository",
+      "usage": "Reference for brightness hotkey event handling architecture",
+      "files": []
+    },
+    {
+      "repo": "acidanthera/OpenCorePkg",
+      "url": "https://github.com/acidanthera/OpenCorePkg",
+      "author": "Acidanthera",
+      "commit": "KextInfo.plist structure and kext development patterns reference",
+      "license": "Check upstream repository",
+      "usage": "Reference for kext development practices",
+      "files": []
+    },
+    {
+      "repo": "Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh",
+      "url": "https://github.com/Kaushal-snap/ASUS-VivoBook-K15-OLED-Hackintosh",
+      "author": "Kaushal-snap",
+      "commit": "reference EFI configuration",
+      "license": "MIT",
+      "usage": "Reference config.plist, DeviceProperties, and ACPI tables for K513EA",
+      "files": []
+    }
+  ]
+}
